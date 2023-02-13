@@ -119,6 +119,11 @@ h1{
         display:grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .card__container{
+        padding:2rem;
+    
+    }
     
     .card__image{
         object-fit:cover;
@@ -134,7 +139,8 @@ h1{
     
     
     .card__content{
-        margin-top:2rem;
+        margin-top:1rem;
+
     }
 
     .card__prices{
@@ -144,4 +150,6 @@ h1{
     .card__heading{
         font-size: 3rem;
     }
+
+
 }
